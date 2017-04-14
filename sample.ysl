@@ -2,8 +2,8 @@ f:/x y@ x+y.
 
 g:/
 x:0, y:1
-h:f y
-/@ x:h x.
+i:f y
+/@ x:i x.
 .
 
 /
