@@ -1,8 +1,8 @@
 f:/x y/ x+y.
 
 g://
-x:0, a:1
-k:f a
+a:1, k:f a
+x:0
 // x:k x.
 .
 
