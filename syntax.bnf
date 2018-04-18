@@ -1,0 +1,38 @@
+<program> ::= <lambda expression>
+
+
+
+<lambda expression> ::= <argument declaration> <expression list>
+
+<argument declaration> ::= "/" <argument list> <separator>
+
+<argument list> ::= <symbol> <separator> <argument list> | "/"
+
+<expression list> ::= <expression> <separator> <expression list> | "."
+
+
+
+<expression> ::= <unary expression> | <operation expression> | <lambda expression> | <definition> | <binding>
+
+
+<unary expression> ::= <constant> | <variable>
+
+
+<operation expression> ::= <operator> <expressions> | <binary operation expression>
+
+<expressions> ::= <expression> <expressions> | <expression>
+
+<operator> ::= "-" | "@"
+
+<binary operation expression> ::= <expression> <binary operator> <expression>
+
+<binary operator> ::= "+" | "-" | "*" | "/"
+
+
+<definition> ::= <variable> ":" <expression>
+
+<binding> ::= <variable> "'" <expression>
+
+
+
+<separator> ::= "," | " " | "\t" | "\r" | "\n"
